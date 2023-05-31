@@ -1,0 +1,18 @@
+body {
+  background-color: #282828;
+  color: white;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+#root>div {
+  font-family: Arial;
+  font-size: 24px;
+  margin: 16px;
+  color: #00d8ff;
+}

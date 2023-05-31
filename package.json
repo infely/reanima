@@ -1,0 +1,51 @@
+{
+  "name": "reanima",
+  "version": "0.1.0",
+  "description": "Animate react components with debug player that can rewind",
+  "keywords": [
+    "react",
+    "reanimated",
+    "animated",
+    "interpolate",
+    "colors",
+    "easing",
+    "player",
+    "debug",
+    "animation",
+    "remotion"
+  ],
+  "author": {
+    "name": "Oleksandr Vasyliev",
+    "email": "infely@gmail.com",
+    "url": "https://github.com/infely"
+  },
+  "repository": "infely/reanima",
+  "homepage": "https://github.com/infely/reanima",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "npm": "tsc --declaration --jsx react --target esnext --esModuleInterop --moduleResolution nodenext --outDir .npm src/index.ts src/lib/* src/withPlayer.tsx",
+    "postnpm": "bin/postnpm.js"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.37",
+    "@types/react-dom": "^18.0.11",
+    "@typescript-eslint/eslint-plugin": "^5.59.0",
+    "@typescript-eslint/parser": "^5.59.0",
+    "@vitejs/plugin-react": "^4.0.0",
+    "eslint": "^8.38.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.3.4",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.9"
+  }
+}
