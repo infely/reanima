@@ -1,6 +1,6 @@
 {
   "name": "reanima",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Animate react components with debug player that can rewind",
   "keywords": [
     "react",

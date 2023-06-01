@@ -21,10 +21,11 @@ const counter = withPlayer(({ useFrame }) => {
 })
 ```
 
-3. Debug
+3. Debug like:
 
 <div align="center">
   <img width="256" src="media/demo.gif"><br>
+  (<a href="https://github.com/infely/reanima/tree/master/src/example">see example</a>)<br />
   <br />
 </div>
 
